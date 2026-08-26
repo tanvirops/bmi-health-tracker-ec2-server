@@ -4,8 +4,6 @@ node_modules/
 .pnp.js
 
 # ── Environment / secrets ────────────────────────────────────
-.env
-.env.local
 .env.*.local
 backend/.env
 frontend/.env
@@ -32,7 +30,6 @@ pids/
 Thumbs.db
 
 # ── IDE / editor ─────────────────────────────────────────────
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -43,3 +40,4 @@ Thumbs.db
 # ── Infrastructure state (environment-specific, not for VCS) ─
 infra_state.json
 setup_infra.log
+config.bat
